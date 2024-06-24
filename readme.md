@@ -9,3 +9,5 @@ find special permission file `find / -perm -u=s -type f 2>/dev/null`
 curl https website for ignore invalid and self signed certificate `curl -k https://93.184.215.14/`
 
 list tcp connection `netstat -tlpn` or `ss -tlpn`
+
+get information about shell being executed `echo $` or `ps -p $$`
