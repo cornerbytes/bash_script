@@ -10,4 +10,6 @@ curl https website for ignore invalid and self signed certificate `curl -k https
 
 list tcp connection `netstat -tlpn` or `ss -tlpn`
 
-get information about shell being executed `echo $` or `ps -p $$`
+get information about shell being executed `echo $0` or `ps -p $$`
+
+bypass space restriction using `$IFS`. Example : `ls$IFS-la`
