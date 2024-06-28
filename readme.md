@@ -13,3 +13,7 @@ list tcp connection `netstat -tlpn` or `ss -tlpn`
 get information about shell being executed `echo $0` or `ps -p $$`
 
 bypass space restriction using `$IFS`. Example : `ls$IFS-la`
+
+listing of last logged in users `last`
+
+terminate session users login on system`sudo pkill -9 -t pts/1`
