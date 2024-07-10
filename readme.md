@@ -17,3 +17,7 @@ bypass space restriction using `$IFS`. Example : `ls$IFS-la`
 listing of last logged in users `last`
 
 terminate session users login on system`sudo pkill -9 -t pts/1`
+
+list directory or file in human readable `ls -lah`
+
+list directory or file recursively `ls -laR`
