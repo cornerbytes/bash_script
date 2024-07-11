@@ -21,3 +21,5 @@ terminate session users login on system`sudo pkill -9 -t pts/1`
 list directory or file in human readable `ls -lah`
 
 list directory or file recursively `ls -laR`
+
+unzip to specific directory `unzip file.zip -d /specific_dir/`
