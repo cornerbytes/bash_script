@@ -23,3 +23,7 @@ list directory or file in human readable `ls -lah`
 list directory or file recursively `ls -laR`
 
 unzip to specific directory `unzip file.zip -d /specific_dir/`
+
+set immutable attribute to file `chattr +i filename.txt`
+
+list attribute file `lsattr -l filename.txt`
