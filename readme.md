@@ -27,3 +27,5 @@ unzip to specific directory `unzip file.zip -d /specific_dir/`
 set immutable attribute to file `chattr +i filename.txt`
 
 list attribute file `lsattr -l filename.txt`
+
+list tcp connection with pid information `sudo netstat -tlpn` or `sudo ss -tlpn`
