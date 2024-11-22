@@ -1,4 +1,4 @@
-one line bash benchmark `wget -qO- bench.sh | bash`
+one line bash benchmark `wget -qO- bench.sh | bash` or `wget -qO- yabs.sh | bash`
 
 get public ip adress `curl ipinfo.io`
 
@@ -33,3 +33,5 @@ list tcp connection with pid information `sudo netstat -tlpn` or `sudo ss -tlpn`
 delete user `userdel --remove (username)`
 
 update password without passwd `echo "(username):password" | chpasswd` (warning: .bash_history or history)
+
+
