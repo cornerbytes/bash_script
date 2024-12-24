@@ -34,4 +34,4 @@ delete user `userdel --remove (username)`
 
 update password without passwd `echo "(username):password" | chpasswd` (warning: .bash_history or history)
 
-
+get ip address of the computer `hostname -I`
