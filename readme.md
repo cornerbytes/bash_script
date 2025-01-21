@@ -37,3 +37,5 @@ update password without passwd `echo "(username):password" | chpasswd` (warning:
 get ip address of the computer `hostname -I`
 
 curl follow redirect `curl -L http://google.com/`
+
+w - Show who is logged on and what they are doing `w`
