@@ -39,3 +39,7 @@ get ip address of the computer `hostname -I`
 curl follow redirect `curl -L http://google.com/`
 
 w - Show who is logged on and what they are doing `w`
+
+Bash history expansion. Example: repeat a history command `whoami` using `!who`
+
+Get information about default shell `echo $SHELL`
