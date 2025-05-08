@@ -45,3 +45,5 @@ Bash history expansion. Example: repeat a history command `whoami` using `!who`
 Get information about default shell `echo $SHELL`
 
 Generate a fingerprint for a public key `ssh-keygen -lf ~/.ssh/id_rsa.pub`
+
+display information about the command type `type grep && type -a git`
